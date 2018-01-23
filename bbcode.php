@@ -1,3 +1,8 @@
+<?php
+/* url=
+http://fxgodin.com/TP/PHP-MYSQL/bbcode.php
+*/
+?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr" >
      <head>
@@ -86,7 +91,7 @@ Sympa non?
 
 <p>
 
-    <label for="texte">Votre message ?</label><br />
+    <label for="texte">Votre texte BBcode à parser :</label><br />
 
     <textarea id="texte" name="texte" cols="50" rows="8"><?php if(isset($_POST['texte'])){echo $_POST['texte'];} ?></textarea><br />
 
